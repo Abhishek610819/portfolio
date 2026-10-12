@@ -1,0 +1,8 @@
+
+
+.header-nav li a {
+    text-decoration: auto;
+}
+nav.navbar.navbar-expand-lg.cstm-bg-color-lightpink {
+    background-color: rgb(10, 60, 96)!important;
+}
