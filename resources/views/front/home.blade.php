@@ -1,398 +1,8 @@
-{{-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="{{ asset('admin/assets/css/style.css') }}">
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-</head>
-<body>
-    @include('layout.header')
-    <div class="container-fluid hero-section">
-        <div class="container d-flex cstm-hero-section-inner">
-           <div class="content w-50 align-middle">
-             <h1>Abhishek Kumar</h1>
-              <p>I create modern, responsive, and user-friendly websites using Laravel, WordPress, and Shopify. My focus is on building functional, attractive, and mobile-friendly websites that meet business requirements and provide a great user experience.
-            My Expertise:</p>
-            </div>
-            <div class="image w-50">
-              <img src="{{ asset('front/assets/images/abhishekimgg.jpeg') }}" alt="Hero Image" class="img-fluid">
-            </div>   
-        </div> 
-    </div>
 
-<div class="container-fluid about-section">
-    <div class="container d-flex cstm-about-section-inner">
-        <div class="left">
-            <div class="cstm-aboutus-head">
-            <h1>About Me</h1>
-            </div>
-            <div class="image w-50">
-
-            <img src="{{ asset('front/assets/images/abhishekimgg.jpeg') }}" alt="Hero Image" class="img-fluid">
-            </div> 
-        </div>
-        <div class="content w-50 align-middle">
-          
-            <p>I am a skilled web developer with expertise in Laravel, WordPress, and Shopify. I specialize in creating modern, responsive, and user-friendly websites that meet business requirements and provide a great user experience. My focus is on building functional, attractive, and mobile-friendly websites that help businesses succeed online.</p>
-        </div>
-    </div>
-</div>
-    @include('layout.footer')
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
-</body>
-</html> --}}
-
-{{-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Abhishek Kumar — Laravel, WordPress and Shopify developer.">
-    <title>Abhishek Kumar | Web Developer</title>
-
-        <link rel="stylesheet" href="{{ asset('admin/assets/css/style.css') }}">
-</head>
-<body>
-
-<header class="header">
-    <div class="container nav">
-        <a class="brand" href="#home"><span>AK</span> Abhishek Kumar</a>
-
-        <button class="menu-toggle" id="menuToggle"
-                aria-label="Toggle navigation" aria-expanded="false">
-            ☰
-        </button>
-
-        <nav class="nav-links" id="navLinks">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#services">Services</a>
-            <a href="#contact">Contact</a>
-            <a class="btn btn-primary nav-cta" href="#contact">Hire Me</a>
-        </nav>
-    </div>
-</header>
-
-<main>
-    <!-- 1. HOME -->
-    <section class="hero section" id="home">
-        <div class="container hero-grid">
-            <div class="hero-content">
-                <span class="eyebrow">HELLO, I'M</span>
-                <h1>Abhishek <span>Kumar</span></h1>
-                <h2>Laravel | WordPress | Shopify Developer</h2>
-
-                <p>
-                    I build modern, responsive and user-friendly websites
-                    and web applications. I have one year of experience at
-                    Onav Info Solution, specializing in Laravel, WordPress
-                    and Shopify development.
-                </p>
-
-                <div class="hero-actions">
-                    <a href="#projects" class="btn btn-primary">View My Work ↗</a>
-                    <a href="#contact" class="btn btn-outline">Contact Me</a>
-                </div>
-
-                <div class="hero-stats">
-                    <div><strong>1 Year</strong><small>Experience</small></div>
-                    <div><strong>6 Skills</strong><small>Core Technologies</small></div>
-                    <div><strong>Web</strong><small>Development</small></div>
-                </div>
-            </div>
-
-            <div class="hero-visual">
-                <div class="hero-circle"></div>
-                <div class="developer-placeholder">
-                    <span>👨‍💻</span>
-                    <strong>Web Developer</strong>
-                    <small>Building digital experiences</small>
-                </div>
-                <span class="floating-tag tag-laravel">Laravel</span>
-                <span class="floating-tag tag-wordpress">WordPress</span>
-                <span class="floating-tag tag-shopify">Shopify</span>
-            </div>
-        </div>
-    </section>
-
-    <!-- 2. ABOUT -->
-    <section class="section" id="about">
-        <div class="container">
-            <div class="section-heading">
-                <span class="eyebrow">GET TO KNOW ME</span>
-                <h2>About <span>Me</span></h2>
-                <p>My journey, skills and experience in web development.</p>
-            </div>
-
-            <div class="about-grid">
-                <div class="about-art">
-                    <div class="about-initials">AK</div>
-                    <p>Code. Create. Improve.</p>
-                </div>
-
-                <div class="about-content">
-                    <h3>A passionate web developer with a problem-solving mindset</h3>
-                    <p>
-                        I am a web developer with one year of experience at
-                        Onav Info Solution. I work on responsive websites,
-                        web applications, content management systems and
-                        e-commerce solutions.
-                    </p>
-                    <p>
-                        My focus is writing maintainable code and creating
-                        straightforward digital experiences that work well
-                        across devices.
-                    </p>
-
-                    <div class="info-list">
-                        <div><strong>Experience</strong><span>1 Year</span></div>
-                        <div><strong>Company</strong><span>Onav Info Solution</span></div>
-                        <div><strong>Location</strong><span>Himachal Pradesh, India</span></div>
-                        <div><strong>Specialization</strong><span>Web Development</span></div>
-                    </div>
-
-                    <a href="#contact" class="btn btn-primary">Let's Work Together ↗</a>
-                </div>
-            </div>
-
-            <div class="journey-panel">
-                <span class="eyebrow">MY JOURNEY</span>
-                <h3>Professional Experience</h3>
-                <div class="timeline">
-                    <div class="timeline-dot"></div>
-                    <div>
-                        <h4>Web Developer — Onav Info Solution</h4>
-                        <p class="muted">1 year of experience</p>
-                        <p>
-                            Working with Laravel, WordPress and Shopify to
-                            build and customize web experiences.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- 3. SKILLS -->
-    <section class="section section-soft" id="skills">
-        <div class="container">
-            <div class="section-heading">
-                <span class="eyebrow">MY EXPERTISE</span>
-                <h2>Technologies I Work <span>With</span></h2>
-                <p>Tools and technologies I use to build reliable websites.</p>
-            </div>
-
-            <div class="skills-grid">
-                @foreach($skills as $skill)
-                    <article class="skill-card">
-                        <div class="skill-icon">{{ $skill['icon'] }}</div>
-                        <h3>{{ $skill['name'] }}</h3>
-                        <p>{{ $skill['description'] }}</p>
-                    </article>
-                @endforeach
-            </div>
-        </div>
-    </section>
-
-    <!-- 4. PROJECTS -->
-    <section class="section" id="projects">
-        <div class="container">
-            <div class="section-heading">
-                <span class="eyebrow">MY PORTFOLIO</span>
-                <h2>Featured <span>Projects</span></h2>
-                <p>A selection of web development project examples.</p>
-            </div>
-
-            <div class="projects-grid">
-                @foreach($projects as $project)
-                    <article class="project-card">
-                        <div class="project-image">
-                            <img
-                                src="{{ asset($project['image']) }}"
-                                alt="{{ $project['title'] }}"
-                                loading="lazy"
-                                onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';"
-                            >
-                            <div class="image-fallback">
-                                <span>{{ $project['category'] }}</span>
-                            </div>
-                        </div>
-
-                        <div class="project-body">
-                            <span class="project-category">{{ $project['category'] }}</span>
-                            <h3>{{ $project['title'] }}</h3>
-                            <p>{{ $project['description'] }}</p>
-                            <a href="#contact" class="text-link">
-                                Discuss a Similar Project ↗
-                            </a>
-                        </div>
-                    </article>
-                @endforeach
-            </div>
-        </div>
-    </section>
-
-    <!-- 5. SERVICES -->
-    <section class="section section-soft" id="services">
-        <div class="container">
-            <div class="section-heading">
-                <span class="eyebrow">WHAT I OFFER</span>
-                <h2>My <span>Services</span></h2>
-                <p>Web development services for businesses and individuals.</p>
-            </div>
-
-            <div class="services-grid">
-                @foreach($services as $service)
-                    <article class="service-card">
-                        <div class="service-number">{{ $service['icon'] }}</div>
-                        <h3>{{ $service['title'] }}</h3>
-                        <p>{{ $service['description'] }}</p>
-                        <a href="#contact" class="text-link">Discuss your project ↗</a>
-                    </article>
-                @endforeach
-            </div>
-        </div>
-    </section>
-
-    <!-- 6. CONTACT -->
-    <section class="section" id="contact">
-        <div class="container">
-            <div class="section-heading">
-                <span class="eyebrow">LET'S CONNECT</span>
-                <h2>Get In <span>Touch</span></h2>
-                <p>Have a project in mind? Let's discuss your requirements.</p>
-            </div>
-
-            @if(session('success'))
-                <div class="alert-success">{{ session('success') }}</div>
-            @endif
-
-            @if($errors->any())
-                <div class="alert-error">
-                    <ul>
-                        @foreach($errors->all() as $error)
-                            <li>{{ $error }}</li>
-                        @endforeach
-                    </ul>
-                </div>
-            @endif
-
-            <div class="contact-grid">
-                <div class="contact-info">
-                    <h3>Contact Information</h3>
-                    <p class="muted">Connect with me through my social profiles.</p>
-
-                    <div class="contact-item">
-                        <span class="contact-icon">⌖</span>
-                        <div>
-                            <strong>Location</strong>
-                            <p>Himachal Pradesh, India</p>
-                        </div>
-                    </div>
-
-                    <div class="contact-item">
-                        <span class="contact-icon">GH</span>
-                        <div>
-                            <strong>GitHub</strong>
-                            <p><a href="https://github.com/" target="_blank"
-                                  rel="noopener noreferrer">Visit GitHub profile ↗</a></p>
-                        </div>
-                    </div>
-
-                    <div class="contact-item">
-                        <span class="contact-icon">in</span>
-                        <div>
-                            <strong>LinkedIn</strong>
-                            <p><a href="https://www.linkedin.com/" target="_blank"
-                                  rel="noopener noreferrer">Visit LinkedIn profile ↗</a></p>
-                        </div>
-                    </div>
-                </div>
-
-                <form class="contact-form" action="{{ route('portfolio.contact') }}" method="POST">
-                    @csrf
-
-                    <label for="name">Your Name</label>
-                    <input id="name" type="text" name="name"
-                           value="{{ old('name') }}" placeholder="Enter your name"
-                           maxlength="100" required>
-
-                    <label for="email">Email Address</label>
-                    <input id="email" type="email" name="email"
-                           value="{{ old('email') }}" placeholder="Enter your email"
-                           maxlength="255" required>
-
-                    <label for="message">Your Message</label>
-                    <textarea id="message" name="message" rows="5"
-                              maxlength="3000" placeholder="Tell me about your project"
-                              required>{{ old('message') }}</textarea>
-
-                    <button type="submit" class="btn btn-primary btn-full">
-                        Send Message ↗
-                    </button>
-                    <small class="muted">Email delivery must be configured in Laravel.</small>
-                </form>
-            </div>
-        </div>
-    </section>
-</main>
-
-<!-- FOOTER -->
-<footer class="footer">
-    <div class="container footer-grid">
-        <div>
-            <a class="brand footer-brand" href="#home"><span>AK</span> Abhishek Kumar</a>
-            <p>Laravel | WordPress | Shopify Developer</p>
-            <p class="footer-muted">Building useful digital experiences.</p>
-        </div>
-
-        <div>
-            <h4>Quick Links</h4>
-            <div class="footer-links">
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#skills">Skills</a>
-                <a href="#projects">Projects</a>
-                <a href="#services">Services</a>
-                <a href="#contact">Contact</a>
-            </div>
-        </div>
-    </div>
-
-    <div class="container copyright">
-        © {{ date('Y') }} Abhishek Kumar. All rights reserved.
-    </div>
-</footer>
-
-<script>
-    const menuToggle = document.getElementById('menuToggle');
-    const navLinks = document.getElementById('navLinks');
-
-    menuToggle.addEventListener('click', function () {
-        const isOpen = navLinks.classList.toggle('active');
-        menuToggle.setAttribute('aria-expanded', String(isOpen));
-    });
-
-    navLinks.querySelectorAll('a').forEach(function (link) {
-        link.addEventListener('click', function () {
-            navLinks.classList.remove('active');
-            menuToggle.setAttribute('aria-expanded', 'false');
-        });
-    });
-</script>
-
-</body>
-</html> --}}
 
 
 
-<!DOCTYPE html>
+{{-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -414,12 +24,12 @@
   
 </head>
 
-<body>
+<body> --}}
 
 <!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg sticky-top">
+{{-- <nav class="navbar navbar-expand-lg sticky-top">
     <div class="container">
-        <a class="navbar-brand d-flex align-items-center" href="#home">
+        <a class="navbar-brand d-flex align-items-center" href="{{ route('home') }}">
             <span class="brand-logo">AK</span>
             <span>Abhishek Kumar</span>
         </a>
@@ -437,7 +47,7 @@
                 <li class="nav-item"><a class="nav-link" href="{{ route('about') }}">About</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{ route('skills') }}">Skills</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{ route('projects') }}">Projects</a></li>
-                {{-- <li class="nav-item"><a class="nav-link" href="#services">Services</a></li> --}}
+            
                 <li class="nav-item"><a class="nav-link" href="{{ route('contact') }}">Contact</a></li>
                 <li class="nav-item ms-lg-2">
                     <a href="#contact" class="btn btn-primary px-4">Hire Me</a>
@@ -445,8 +55,11 @@
             </ul>
         </div>
     </div>
-</nav>
+</nav> --}}
+@extends('layouts.app')
 
+@section('title', 'About | Abhishek Kumar')
+@section('content')
 <!-- HOME -->
 <section class="hero" id="home">
     <div class="container">
@@ -919,9 +532,10 @@
         </div>
     </div>
 </section>
+@endsection
 
 <!-- FOOTER -->
-<footer class="footer">
+{{-- <footer class="footer">
     <div class="container">
         <div class="row g-4 pb-4">
             <div class="col-md-7">
@@ -995,4 +609,4 @@
 </script>
 
 </body>
-</html>
+</html> --}}

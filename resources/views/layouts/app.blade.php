@@ -11,6 +11,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
 <link rel="stylesheet" href="{{ asset('front/assets/css/style.css') }}">
     
+<link rel="icon" type="image/png" href="{{ asset('abhishekicon.png') }}">
+
     {{-- @stack('styles') --}}
 </head>
 <body>
